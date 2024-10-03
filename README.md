@@ -24,7 +24,7 @@ method of inventorying the container. To simulate what the RFID chips would comp
 an add function to simulate adding an item to the container. The class should store a list of all
 added items (as a string) and their quantity using the data structures of your choice. For example,
 if the add function were invoked three times as follows:   
-``c++
+``
 rfidContainer.add("crate of pears"); // Add one crate of pears
 rfidContainer.add("crate of apples"); // Add one crate of apples
 rfidContainer.add("crate of pears"); // Add one crate of pears
