@@ -25,9 +25,9 @@ an add function to simulate adding an item to the container. The class should st
 added items (as a string) and their quantity using the data structures of your choice. For example,
 if the add function were invoked three times as follows:   
 ``
-rfidContainer.add("crate of pears"); // Add one crate of pears
-rfidContainer.add("crate of apples"); // Add one crate of apples
-rfidContainer.add("crate of pears"); // Add one crate of pears
+rfidContainer.add("crate of pears"); // Add one crate of pears  
+rfidContainer.add("crate of apples"); // Add one crate of apples  
+rfidContainer.add("crate of pears"); // Add one crate of pears  
 ``  
 At this point, the data structure should be storing a list of two items: crate of apples and crate of
 pears. The quantity of apples is 1 and the quantity of pears is 2. Override the getManifest
