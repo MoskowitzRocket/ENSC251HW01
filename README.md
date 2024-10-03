@@ -26,13 +26,13 @@ added items (as a string) and their quantity using the data structures of your c
 if the add function were invoked three times as follows:   
 ``
 rfidContainer.add("crate of pears"); // Add one crate of pears  
-``
+``  
 ``
 rfidContainer.add("crate of apples"); // Add one crate of apples
-``
+``  
 ``
 rfidContainer.add("crate of pears"); // Add one crate of pears  
-``  
+``    
 At this point, the data structure should be storing a list of two items: crate of apples and crate of
 pears. The quantity of apples is 1 and the quantity of pears is 2. Override the getManifest
 function so that it returns a string of all items that is built by traversing the list of items. In the
