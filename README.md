@@ -9,6 +9,7 @@ Consider a shipping container full of items. Without RFID chips, a human has to 
 inventory all of the items in the container to verify the contents. With an RFID chip attached to
 the shipping container, the RFID chip can electronically broadcast to a human the exact contents
 of the shipping container without human intervention.  
+
 To model this application, write a base class called ShippingContainer that has a container
 ID number as an integer. Include member functions to set and access the ID number. Add a
 virtual function called getManifest that returns an empty string. The purpose of this function
